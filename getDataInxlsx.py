@@ -75,7 +75,7 @@ import pandas as pd
 from pathlib import Path
 import json
 
-file = Path(r"d:\testApp\thongquanData.xls")
+file = Path(r"d:\testing\ToKhaiHQ7N_107592120750.xlsx")
 
 # choose engine by extension (install xlrd for .xls, openpyxl for .xlsx)
 ext = file.suffix.lower()

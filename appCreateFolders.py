@@ -5,8 +5,11 @@ import shutil
 # Change this to your target path if needed
 base_dir = os.getcwd()
 
-for i in range(1, 21):
-    folder_name = f"HNVN{i:03d}"  # HNVN001 ... HNVN20
+start = 1
+end = 300
+
+for i in range(start, end + 1):
+    folder_name = f"HNVN{i:04d}"  # HNVN0001 ... HNVN0300
     folder_path = os.path.join(base_dir, folder_name)
 
     # Create the folder if it doesn't exist

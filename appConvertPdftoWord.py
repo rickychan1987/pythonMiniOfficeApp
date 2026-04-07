@@ -22,7 +22,7 @@
 # def convert_pdfs_to_docx(input_folderr, output_dir="DOCX"):
 #     """Convert all PDF files in input_dir to DOCX and save in output_dir"""
 #     if not os.path.exists(output_dir):
-#         os.makedirs(output_dir)
+#         os.makedirs(output_dir)oyp
 
 #     for filename in sorted(os.listdir(input_folder)):
 #         if filename.lower().endswith(".pdf"):
